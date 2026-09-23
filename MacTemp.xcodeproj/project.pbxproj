@@ -13,6 +13,7 @@
 		A10000000000000000000004 /* TemperatureMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* TemperatureMonitor.swift */; };
 		A10000000000000000000005 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* ContentView.swift */; };
 		A10000000000000000000006 /* HIDTemperatureReader.m in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* HIDTemperatureReader.m */; };
+		A10000000000000000000007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A20000000000000000000006 /* HIDTemperatureReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HIDTemperatureReader.m; sourceTree = "<group>"; };
 		A20000000000000000000007 /* HIDTemperatureReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HIDTemperatureReader.h; sourceTree = "<group>"; };
 		A20000000000000000000008 /* MacTemp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacTemp-Bridging-Header.h"; sourceTree = "<group>"; };
+		A20000000000000000000009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A20000000000000000000010 /* MacTemp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacTemp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -51,6 +53,7 @@
 			children = (
 				A20000000000000000000001 /* MacTempApp.swift */,
 				A20000000000000000000008 /* MacTemp-Bridging-Header.h */,
+				A20000000000000000000009 /* Assets.xcassets */,
 				A40000000000000000000004 /* Models */,
 				A40000000000000000000005 /* Services */,
 				A40000000000000000000006 /* Views */,
@@ -151,6 +154,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10000000000000000000007 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +214,7 @@
 		A90000000000000000000003 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -233,7 +237,7 @@
 		A90000000000000000000004 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
